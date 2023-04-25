@@ -4,7 +4,7 @@ projectData = {};
 // Require Express to run server and routes
 const express = require('express');
 const bodyParser = require('body-parser');
-const cors = require('cors'); 
+const cors = require('cors');
 
 // Start up an instance of app
 const app = express();
@@ -25,7 +25,7 @@ const port = 8000;
 const server = app.listen(port, listening);
 
 //Callback to debug
-function listening(){
+function listening() {
   console.log(`server running on port ${port}`);
 }
 
